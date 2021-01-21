@@ -1,0 +1,30 @@
+.wrapper {
+    position: fixed;
+    background: rgb(34, 33, 33);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    pointer-events: none;
+
+  }
+  .a-wrapper{
+      width: 8rem;
+      height: 8rem;
+      background-color: rgb(34, 33, 33);
+      border-radius: 50%;
+      box-shadow: inset -22px -16px 68px 12px rgba(0,0,0,0.8),-1px -8px 46px -41px rgba(225,225,225,2250.1);
+
+  }
+
+*,html{
+    margin: 0;
+    padding: 0;
+}
+
+.circle{
+    
+    position: absolute;
+}
